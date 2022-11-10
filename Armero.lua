@@ -25,7 +25,7 @@ local function ClickNPC(E, P, U)  local L, C, name = P:GetLevel(), P:GetClassMas
     if L>=15 then 
         for i=1, #SKILLS_[C] do 
             if P:HasSpell(SKILLS_[C][i]) then 
-                --Do asbolutely nothing
+                --No hacer absolutamente nada
             else 
                 P:LearnSpell(SKILLS_[C][i])
             end 
