@@ -3,7 +3,7 @@
     Si ya entrenaste tus armas, puedes volver otra vez con más nivel para subir al máximo tus skills de armas.
 ]]
 
-local NPCID = 60000  --> Reemplaza 00000 con el ID del NPC al que asignarás el script.
+local NPCID = 00000  --> Reemplaza 00000 con el ID del NPC al que asignarás el script.
 local L15 = 'Debes haber alcanzado el nivel 15, '
 
 local SKILLS_ = {
